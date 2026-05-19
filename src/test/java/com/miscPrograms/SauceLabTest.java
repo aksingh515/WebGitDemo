@@ -29,6 +29,8 @@ public class SauceLabTest {
 		WebDriver driver = new RemoteWebDriver(new URL(URL), options);
 		driver.get("http://google.com");
 		System.out.println(driver.getTitle());
+		System.out.println("Title Displayed");
+		System.out.println("Google Opened");
 	}
 
 }
